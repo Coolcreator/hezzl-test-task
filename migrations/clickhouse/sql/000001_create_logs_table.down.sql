@@ -1,0 +1,7 @@
+ALTER TABLE hezzl.logs DROP INDEX IF EXISTS idx_Id;
+
+ALTER TABLE hezzl.logs DROP INDEX IF EXISTS idx_ProjectId;
+
+ALTER TABLE hezzl.logs DROP INDEX IF EXISTS idx_Name;
+
+DROP TABLE IF EXISTS hezzl.logs;
